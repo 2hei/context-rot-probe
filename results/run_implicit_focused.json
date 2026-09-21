@@ -1,0 +1,46 @@
+[
+  {
+    "position": 0.5,
+    "run": 1,
+    "doc_count": 3,
+    "est_tokens": 7139,
+    "needle_index": 1,
+    "answer": "根据文档内容，数据库结构变更应该使用 `bin/migrate_custom.sh` 这个内部工具（脚本）执行。\n\n在服务重启之前。\n\n依据：文档中明确提到“以后数据库任何表结构变更都走 bin/migrate_custom.sh 这个内部工具，上线流程里这一步必须排在应用重启动作的前面”。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 8.5
+  },
+  {
+    "position": 0.5,
+    "run": 2,
+    "doc_count": 3,
+    "est_tokens": 7139,
+    "needle_index": 1,
+    "answer": "根据提供的文档，未提及“数据库结构变更应该用什么脚本执行”或“在服务重启之前还是之后”的具体规定。\n\n文档【t_imc_repayment.md】仅包含表结构定义（`t_imc_repayment` 表），未包含运维流程或迁移脚本说明。\n文档【remix.md】是前端框架升级指南，与数据库无关。\n文档【SKILL.md】是 WAF 绕过技术文档，与数据库无关。\n\n因此，文档里没有答案。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "migrate_custom.sh"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 9.5
+  },
+  {
+    "position": 0.5,
+    "run": 3,
+    "doc_count": 3,
+    "est_tokens": 7139,
+    "needle_index": 1,
+    "answer": "根据文档内容，数据库结构变更应使用 **`bin/migrate_custom.sh`** 这个内部工具执行。该步骤必须排在**应用重启动作的前面**（即在服务重启之前执行）。\n\n*注：相关规范信息来自用户提供的非项目文档说明部分，而非提供的三份项目文档（t_imc_repayment.md, remix.md, SKILL.md）内的内容。*",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 9.9
+  }
+]

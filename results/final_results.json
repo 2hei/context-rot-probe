@@ -1,0 +1,290 @@
+[
+  {
+    "tokens": 50725,
+    "pos": 0.1,
+    "run": 1,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.1,
+    "run": 2,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.1,
+    "run": 3,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.5,
+    "run": 1,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.5,
+    "run": 2,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.5,
+    "run": 3,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.9,
+    "run": 3,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.9,
+    "run": 1,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50725,
+    "pos": 0.9,
+    "run": 2,
+    "needle": "显式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.1,
+    "run": 1,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.1,
+    "run": 2,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.1,
+    "run": 3,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.5,
+    "run": 1,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.5,
+    "run": 2,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.5,
+    "run": 3,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.9,
+    "run": 1,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.9,
+    "run": 2,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 106698,
+    "pos": 0.9,
+    "run": 3,
+    "needle": "显式针·10.6万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.1,
+    "run": 1,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.1,
+    "run": 2,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.1,
+    "run": 3,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.5,
+    "run": 1,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.5,
+    "run": 2,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.5,
+    "run": 3,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.9,
+    "run": 1,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.9,
+    "run": 2,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 192284,
+    "pos": 0.9,
+    "run": 3,
+    "needle": "显式针·19.2万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.1,
+    "run": 1,
+    "needle": "隐式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.1,
+    "run": 2,
+    "needle": "隐式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.1,
+    "run": 3,
+    "needle": "隐式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.5,
+    "run": 1,
+    "needle": "隐式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.5,
+    "run": 2,
+    "needle": "隐式针·5万tok",
+    "pass": false,
+    "fail_type": "retrieval_miss"
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.5,
+    "run": 3,
+    "needle": "隐式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.9,
+    "run": 1,
+    "needle": "隐式针·5万tok",
+    "pass": true,
+    "fail_type": ""
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.9,
+    "run": 2,
+    "needle": "隐式针·5万tok",
+    "pass": false,
+    "fail_type": "retrieval_miss"
+  },
+  {
+    "tokens": 50756,
+    "pos": 0.9,
+    "run": 3,
+    "needle": "隐式针·5万tok",
+    "pass": false,
+    "fail_type": "missing_script"
+  }
+]

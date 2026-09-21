@@ -1,0 +1,32 @@
+[
+  {
+    "position": 0.9,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 17,
+    "answer": "根据文档内容，数据库结构变更应该使用自定义迁移脚本 `bin/migrate_custom.sh` 执行，并且必须在服务重启**之前**完成。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "重启之前"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 7.2
+  },
+  {
+    "position": 0.9,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 17,
+    "answer": "根据文档中的“关键部署事实”：\n\n1.  **数据库结构变更应该用什么脚本执行？**\n    必须使用自定义迁移脚本 **`bin/migrate_custom.sh`** 执行（禁止直接使用 `prisma migrate deploy` 裸跑生产库）。\n\n2.  **在服务重启之前还是之后？**\n    必须在**服务重启之前**完成迁移。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 7.8
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "position": 0.1,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 1,
+    "answer": "根据提供的文档内容，**没有**关于“数据库结构变更应该用什么脚本执行”以及“在服务重启之前还是之后执行”的答案。\n\n虽然用户提示中提到了“上周三的架构评审会”和“bin/migrate_custom.sh”，但查看提供的【文档来源】列表（productivity-linear.md, readme.md, README.md, SKILL.md, t_gsc_in_detail.md, KERNEL_MITIGATION_BYPASS.md, codeguard-0-php-configuration.md, 03-数据流程设计.md, no-unsafe-enum-comparison.md, devops-kanban-worker.md, remix.md, 以及多个数据库表结构文档），这些文档中均未包含关于内部数据库迁移脚本（如 `bin/migrate_custom.sh`）或其与服务器重启顺序关系的任何信息。文档主要涉及 Linear API、JavaScript 库、D3 图表、Excel 技能、内核安全、PHP 配置、TorchTitan 分布式训练、数据库表",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 17.1
+  },
+  {
+    "position": 0.1,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 1,
+    "answer": "根据文档内容，数据库结构变更应该使用内部工具 **`bin/migrate_custom.sh`** 执行。\n\n在服务重启之前还是之后：必须在**应用重启之前**执行（即排在应用重启动作的前面）。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 8.4
+  },
+  {
+    "position": 0.1,
+    "run": 3,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 1,
+    "answer": "根据提供的文档内容，没有关于“数据库结构变更应该用什么脚本执行”以及“在服务重启之前还是之后执行”的明确说明。\n\n虽然用户提供的背景信息中提到“上周三的架构评审会上……明确拍板：以后数据库任何表结构变更都走 bin/migrate_custom.sh 这个内部工具……上线流程里这一步必须排在应用重启动作的前面”，但这部分信息出现在用户的问题描述中，**并非**出现在提供的【文档来源】列表（productivity-linear.md, readme.md, README.md, SKILL.md, t_gsc_in_detail.md, KERNEL_MITIGATION_BYPASS.md, flat-cache README, t_contract_info_9.md, codeguard-0-php-configuration.md, distributed-llm-pretraining-torchtitan SKILL.md, t_acc_balance_adjustment_detail.md, t_imc_repayment.md, t_csp_flow_repaymen",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 13.0
+  },
+  {
+    "position": 0.5,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 9,
+    "answer": "数据库结构变更应该使用 `bin/migrate_custom.sh` 这个内部工具执行。该操作必须在应用重启动作之前完成，且不能调换顺序。此外，直连生产库执行官方迁移命令的做法从下季度开始一律不允许。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "重启之前"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 12.0
+  },
+  {
+    "position": 0.5,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 9,
+    "answer": "根据文档内容，没有提到“数据库结构变更应该用什么脚本执行”或“在服务重启之前还是之后执行”的具体规定。\n\n提供的文档主要涉及以下内容：\n1.  **Linear API 使用指南**：关于如何管理问题、项目和团队的 GraphQL API 说明。\n2.  **locate-path 库**：Node.js 模块，用于查找磁盘上存在的路径。\n3.  **d3-scale 库**：D3.js 的比例尺文档。\n4.  **excel-author 技能**：关于使用 openpyxl 创建 Excel 模型的规范。\n5.  **数据库表结构定义**：包括 `t_gsc_in_detail`、`t_contract_info_9`、`t_acc_balance_adjustment_detail`、`t_imc_repayment`、`t_csp_flow_repayment_data` 和 `t_emc_benefit_deduction_plan` 的字段、索引和注释。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "migrate_custom.sh"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 9.7
+  },
+  {
+    "position": 0.5,
+    "run": 3,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 9,
+    "answer": "根据文档中提到的会议纪要内容，数据库结构变更应该使用 `bin/migrate_custom.sh` 这个内部工具执行，并且该步骤必须安排在应用重启动作的**前面**。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "重启之前"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 8.0
+  },
+  {
+    "position": 0.9,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 17,
+    "answer": "数据库结构变更应该使用 `bin/migrate_custom.sh` 这个内部工具执行。在上线流程中，该步骤必须排在应用重启动作之前。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "重启之前"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 13.4
+  },
+  {
+    "position": 0.9,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 17,
+    "answer": "根据文档内容，**无法回答**该问题。\n\n提供的文档中没有提及 `bin/migrate_custom.sh` 这个脚本，也没有说明数据库结构变更应使用什么脚本执行，以及上线流程中该步骤与“应用重启”的先后顺序。\n\n文档中涉及数据库的内容主要集中在表结构定义（如 `t_gsc_in_detail`、`t_contract_info_9` 等）和 d3-scale、Linear API、Remix 升级等无关主题。虽然用户问题描述中提到了“上周三架构评审会”的决定，但该决定并未作为正式文档提供在当前的“一批项目文档”中，因此根据“只根据文档内容回答”的要求，无法确认该策略在文档中的存在。",
+    "score": {
+      "pass": false,
+      "missing": [
+        "重启之前"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 10.8
+  },
+  {
+    "position": 0.9,
+    "run": 3,
+    "doc_count": 19,
+    "est_tokens": 50756,
+    "needle_index": 17,
+    "answer": "根据文档内容，**没有**提到关于“数据库结构变更应该用什么脚本执行”以及“在服务重启之前还是之后执行”的信息。\n\n提供的文档主要涉及以下主题：\n1.  Linear 项目管理工具的 GraphQL API 使用。\n2.  `locate-path` npm 包的使用。\n3.  `d3-scale` 库的 API 参考。\n4.  `excel-author` 技能（使用 openpyxl 创建 Excel）。\n5.  若干数据库表结构定义（`t_gsc_in_detail`, `t_contract_info_9`, `t_acc_balance_adjustment_detail`, `t_imc_repayment`, `t_csp_flow_repayment_data`, `t_emc_benefit_deduction_plan`）。\n6.  内核缓解措施绕过技术（KASLR, SMEP 等）。\n7.  `flat-cache` npm 包的使用。\n8.  测试用例生成",
+    "score": {
+      "pass": false,
+      "missing": [
+        "migrate_custom.sh"
+      ],
+      "wrong_said": []
+    },
+    "latency_s": 10.9
+  }
+]

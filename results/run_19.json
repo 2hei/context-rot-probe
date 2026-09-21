@@ -1,0 +1,130 @@
+[
+  {
+    "position": 0.1,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 1,
+    "answer": "根据文档《productivity-linear.md》中的“关键部署事实”，数据库结构变更必须使用自定义迁移脚本 `bin/migrate_custom.sh` 执行，并且必须在服务重启**之前**完成迁移。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 13.9
+  },
+  {
+    "position": 0.1,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 1,
+    "answer": "根据文档【文档来源：productivity-linear.md】中“关键部署事实”部分的说明：\n\n数据库结构变更必须使用自定义迁移脚本 **`bin/migrate_custom.sh`** 执行。\n\n该迁移必须在 **服务重启之前** 完成（顺序绝对不能颠倒）。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 9.8
+  },
+  {
+    "position": 0.1,
+    "run": 3,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 1,
+    "answer": "根据文档内容，数据库结构变更必须使用自定义迁移脚本 `bin/migrate_custom.sh` 执行，并且必须在服务重启**之前**完成迁移，顺序绝对不能颠倒。禁止直接使用 `prisma migrate deploy` 裸跑生产库。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 7.8
+  },
+  {
+    "position": 0.5,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 9,
+    "answer": "根据文档 `codeguard-0-php-configuration.md` 末尾的关键部署事实：\n\n数据库结构变更应该使用自定义迁移脚本 **`bin/migrate_custom.sh`** 执行。\n\n该脚本必须在**服务重启之前**完成，顺序绝对不能颠倒（即禁止在重启后再执行，且禁止直接使用 `prisma migrate deploy` 裸跑生产库）。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 16.6
+  },
+  {
+    "position": 0.5,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 9,
+    "answer": "根据文档【codeguard-0-php-configuration.md】中的“关键部署事实”部分，数据库结构变更应该使用自定义迁移脚本 `bin/migrate_custom.sh` 执行。必须在服务重启之前完成迁移，顺序绝对不能颠倒。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 7.8
+  },
+  {
+    "position": 0.5,
+    "run": 3,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 9,
+    "answer": "根据文档内容，数据库结构变更必须使用自定义迁移脚本 `bin/migrate_custom.sh` 执行，并且必须在服务重启之前完成，顺序不能颠倒。禁止直接使用 `prisma migrate deploy` 裸跑生产库。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 13.9
+  },
+  {
+    "position": 0.9,
+    "run": 1,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 17,
+    "answer": "<API_ERROR: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>>",
+    "score": {
+      "pass": null,
+      "missing": [],
+      "wrong_said": [],
+      "note": "api_error"
+    },
+    "latency_s": 10.2
+  },
+  {
+    "position": 0.9,
+    "run": 2,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 17,
+    "answer": "<API_ERROR: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>>",
+    "score": {
+      "pass": null,
+      "missing": [],
+      "wrong_said": [],
+      "note": "api_error"
+    },
+    "latency_s": 7.0
+  },
+  {
+    "position": 0.9,
+    "run": 3,
+    "doc_count": 19,
+    "est_tokens": 50725,
+    "needle_index": 17,
+    "answer": "根据提供的“关键部署事实”，数据库结构变更应该使用自定义迁移脚本 **`bin/migrate_custom.sh`** 执行。\n\n迁移必须在**服务重启之前**完成。",
+    "score": {
+      "pass": true,
+      "missing": [],
+      "wrong_said": []
+    },
+    "latency_s": 9.2
+  }
+]

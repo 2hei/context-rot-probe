@@ -1,0 +1,7 @@
+docs/
+needle.txt
+*.log
+__pycache__/
+.env
+smoke.json
+probe_result.json
