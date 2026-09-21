@@ -1,0 +1,4 @@
+^D[10%|run1] 3,089tok -> PASS  []
+[50%|run1] 3,089tok -> PASS  []
+[90%|run1] 3,089tok -> PASS  []
+汇总：3/3 通过，结果已写入 demo_result_fixed.json
